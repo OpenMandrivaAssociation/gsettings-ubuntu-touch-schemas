@@ -1,14 +1,14 @@
 %define _name   gsettings-ubuntu-touch-schemas
 %define _version 0.0.7+21.10.20210712
 Name:           gsettings-ubuntu-schemas
-Version:        0.0.7~bzr20210712.80
-Release:        0
+Version:        0.0.7
+Release:        1
 Summary:        GSettings desktop-wide schemas from Ubuntu
 License:        LGPL-2.1-only
 Group:          System/GUI/Other
 URL:            https://launchpad.net/gsettings-ubuntu-touch-schemas
 Source:         https://launchpad.net/ubuntu/+archive/primary/+files/%{_name}_%{_version}.orig.tar.gz
-Source1:        %{name}-rpmlintrc
+
 BuildRequires:  autoconf
 BuildRequires:  automake
 BuildRequires:  intltool
@@ -16,7 +16,6 @@ BuildRequires:  pkgconfig
 BuildRequires:  polkit
 BuildRequires:  pkgconfig(glib-2.0)
 BuildArch:      noarch
-%glib2_gsettings_schema_requires
 
 %description
 gsettings-ubuntu-schemas contains a collection of GSettings schemas
