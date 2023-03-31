@@ -2,7 +2,7 @@
 %define _version 0.0.7+21.10.20210712
 Name:           gsettings-ubuntu-schemas
 Version:        0.0.7
-Release:        1
+Release:        2
 Summary:        GSettings desktop-wide schemas from Ubuntu
 License:        LGPL-2.1-only
 Group:          System/GUI/Other
